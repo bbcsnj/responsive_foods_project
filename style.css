@@ -1,3 +1,4 @@
+/* Font code accessed from Google Fonts https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* Common Styles */
@@ -12,6 +13,7 @@ font-weight: 400;
 }
 /* End of Common Styles */
 
+/* Changing this will allow the use of REM as a measurement of font. 1 REM is equivalent now to 10 pt font size */
 html{
 font-size: 62.5%;  
 }
