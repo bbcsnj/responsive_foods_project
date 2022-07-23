@@ -11,3 +11,7 @@ font-family: "Nunito", sans-serif;
 font-weight: 400;  
 }
 /* End of Common Styles */
+
+html{
+font-size: 62.5%;  
+}
