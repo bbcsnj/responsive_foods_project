@@ -12,6 +12,11 @@ font-family: "Nunito", sans-serif;
 font-weight: 400;  
 }
 
+/* Changing this will allow the use of REM as a measurement of font. 1 REM is equivalent now to 10 pt font size */
+html{
+font-size: 62.5%;  
+}
+
 .section-heading {
 font-size: 12rem;
 font-weight: 900;
@@ -22,11 +27,6 @@ letter-spacing: 0.5rem;
 text-shadow: 0.3rem 0.3rem 0.3rem #000;
 }
 /* End of Common Styles */
-
-/* Changing this will allow the use of REM as a measurement of font. 1 REM is equivalent now to 10 pt font size */
-html{
-font-size: 62.5%;  
-}
 
 /* Section 1 */
 .section-1 {
