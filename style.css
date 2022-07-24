@@ -48,11 +48,15 @@ position: absolute;
    scale(0) hides the first icon since this is a list of icons*/
 transform: translate(-50%, -50%) scale(0);
 text-shadow: 0.2rem 02.rem 0.2rem #000;
+/* transition will effect the scaled appearence of the icon */   
+transition: transform 0.3s;
 }
 /* add change to the class of just the first icon in the list
    scale(1) will make the icon visible */
 .section-1-icons i.change {
-transform: translate(-50%, -50%) scale(1);   
+transform: translate(-50%, -50%) scale(1);
+/* transition will effect the scaled appearence of the icon */   
+transition: transform 0.3s 0.3s;   
 }
 /* End of Section 1 */
 
