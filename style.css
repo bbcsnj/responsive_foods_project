@@ -44,8 +44,15 @@ font-size: 35rem;
 color: #a79a2d;
 position: absolute;
 /* You must pull back the item with the half of its width and height. 
-   You can achieve this with transform: translate(-50%, -50%); */
-transform: translate(-50%, -50%);
+   You can achieve this with transform: translate(-50%, -50%); 
+   scale(0) hides the first icon since this is a list of icons*/
+transform: translate(-50%, -50%) scale(0);
+text-shadow: 0.2rem 02.rem 0.2rem #000;
+}
+/* add change to the second icon in the list class 
+   scale(1) will make the icon visible */
+.section-1-icons i.change {
+transform: translate(-50%, -50%) scale(1);   
 }
 /* End of Section 1 */
 
