@@ -88,7 +88,7 @@ box-shadow: 1rem 1rem 1rem #000;
 position: relative;
 transform: rotateY(20deg) skewX(-2deg);
 /* Added transition to smooth the raising and lowering of the hover effect */
-transition: transform 0.5s, box-shadow 0.5;   
+transition: transform 0.5s, box-shadow 0.5s;   
 }  
 
 /* Adding a hover effect for the cards on a mouseover with CSS */
