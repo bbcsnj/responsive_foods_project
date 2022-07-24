@@ -4,7 +4,7 @@
     representing a list of the document's elements that match the specified group of selectors. 
     */
 
-const icons = document.querySelectorAll('.section-1-icons-i')
+const icons = document.querySelectorAll('.section-1-icons i')
 
     /*  
     The setInterval() method, offered on the Window and Worker interfaces, 
@@ -14,7 +14,6 @@ const icons = document.querySelectorAll('.section-1-icons-i')
     Time is in milliseconds. 1 second = 1000 milliseconds.
     setInterval(code)
     setInterval(code, delay)
-
     setInterval(func)
     setInterval(func, delay)
     setInterval(func, delay, arg0)
@@ -27,7 +26,7 @@ let i = 1
 
 setInterval(() => {
 
-   i ++
+  i++
     
     /*  
     The Document method querySelector() returns the first Element within the document that 
@@ -59,9 +58,8 @@ setInterval(() => {
   if (i > icons.length) {
     icons[0].classList.add('change')
     i = 1
-  }
-  else {
-    icon.nextElementSibling.classList.add('change')      
+  } else {
+    icon.nextElementSibling.classList.add('change')     
   }
     
     /*  
