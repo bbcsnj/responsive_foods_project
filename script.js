@@ -34,7 +34,7 @@ setInterval(() => {
     If no matches are found, null is returned. 
     */
   
-  const icon = document.querySelector('.section-1-icons .change')
+  const icon = document.querySelector('.section-1-icons i.change')
   
     /*  
     The Element.classList is a read-only property that returns a live DOMTokenList collection 
