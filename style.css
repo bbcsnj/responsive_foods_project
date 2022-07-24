@@ -76,10 +76,6 @@ display: flex;
 justify-content: space-evenly;
 }   
 
-.card-wrapper {
-perspective: 1000rem;   
-}
-
 .card {
 width: 30rem;
 background-color: #a79a2d;
