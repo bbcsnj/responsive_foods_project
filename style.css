@@ -117,7 +117,7 @@ transform: skewY(45deg);
 /* It defines the point at which a transformation is applied. right will be in the middle right point
    this causes a skewY to lift based on that point */
 transform-origin: right;
-box-shadow: -0.1rem -0.1rem -0.1rem #000;
+box-shadow: -0.1rem -0.1rem 0.1rem #000;
 }   
 
 /* In CSS, ::after creates a pseudo-element that is the last child of the selected element. 
