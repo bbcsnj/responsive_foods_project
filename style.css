@@ -28,6 +28,25 @@ flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 }
+
+.section-heading {
+font-size: 12rem;
+font-weight: 900;
+color: #fff;
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 0.5rem;
+text-shadow: 0.3rem 0.3rem 0.3rem #000;
+}
+
+.section-1-icons i {
+font-size: 35rem;
+color: #a79a2d;
+position: absolute;
+/* You must pull back the item with the half of its width and height. 
+   You can achieve this with transform: translate(-50%, -50%); */
+transform: translate(-50%, -50%);
+}
 /* End of Section 1 */
 
 
