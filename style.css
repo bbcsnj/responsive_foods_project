@@ -84,8 +84,18 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 box-shadow: 1rem 1rem 1rem #000;
+<!-- Added the code below to skew the cards a bit from a linear position -->
+position: relative;
+transform: rotateY(20deg) skewX(-2deg);
 }  
 
+/* Adding a hover effect for the cards on a mouseover with CSS */
+/* The translateY() CSS function repositions an element vertically on the 2D plane. 
+   Its result is a <transform-function> data type.  */
+card:hover {
+transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
+}
+   
 /* Giving a 3D look */
 /* In CSS, ::before creates a pseudo-element that is the first child of the selected element. 
    It is often used to add cosmetic content to an element with the content property. 
