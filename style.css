@@ -85,7 +85,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 box-shadow: 1rem 1rem 1rem #000;
-<!-- Added the code below to skew the cards a bit from a linear position -->
+/* Added the code below to skew the cards a bit from a linear position */
 position: relative;
 transform: rotateY(20deg) skewX(-2deg);
 /* Added transition to smooth the raising and lowering of the hover effect */
