@@ -49,7 +49,7 @@ position: absolute;
 transform: translate(-50%, -50%) scale(0);
 text-shadow: 0.2rem 02.rem 0.2rem #000;
 }
-/* add change to the second icon in the list class 
+/* add change to the class of just the first icon in the list
    scale(1) will make the icon visible */
 .section-1-icons i.change {
 transform: translate(-50%, -50%) scale(1);   
