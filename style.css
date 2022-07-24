@@ -47,7 +47,7 @@ position: absolute;
    You can achieve this with transform: translate(-50%, -50%); 
    scale(0) hides the first icon since this is a list of icons*/
 transform: translate(-50%, -50%) scale(0);
-text-shadow: 0.2rem 02.rem 0.2rem #000;
+text-shadow: 0.2rem 0.2rem 0.2rem #000;
 /* transition will effect the scaled appearance of the icon */   
 transition: transform 0.3s;
 }
