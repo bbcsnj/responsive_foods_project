@@ -95,7 +95,7 @@ transition: transform 0.5s, box-shadow 0.5s;
 /* Adding a hover effect for the cards on a mouseover with CSS */
 /* The translateY() CSS function repositions an element vertically on the 2D plane. 
    Its result is a <transform-function> data type.  */
-card:hover {
+.card:hover {
 transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
 box-shadow: 2rem 2rem 2rem #000;
 }
