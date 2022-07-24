@@ -19,7 +19,6 @@ const icons = document.querySelectorAll('.section-1-icons-i')
     setInterval(func, delay)
     setInterval(func, delay, arg0)
     setInterval(func, delay, arg0, arg1)
-    setInterval(func, delay, arg0, arg1, /* … ,*/ argN)
     */
     /*
     i will be used as a counter - the let variable assignment means it will be changed
