@@ -7,7 +7,17 @@ const icons = document.querySelectorAll('.section-1-icons-i')
 /*  The setInterval() method, offered on the Window and Worker interfaces, 
     repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.
     This method returns an interval ID which uniquely identifies the interval, 
-    so you can remove it later by calling clearInterval().  */
+    so you can remove it later by calling clearInterval(). 
+    Time is in milliseconds. 1 second = 1000 milliseconds.
+    setInterval(code)
+    setInterval(code, delay)
+
+setInterval(func)
+setInterval(func, delay)
+setInterval(func, delay, arg0)
+setInterval(func, delay, arg0, arg1)
+setInterval(func, delay, arg0, arg1, /* … ,*/ argN)
+*/
 
 setInterval(() => {
 
