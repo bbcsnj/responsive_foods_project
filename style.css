@@ -87,6 +87,8 @@ box-shadow: 1rem 1rem 1rem #000;
 <!-- Added the code below to skew the cards a bit from a linear position -->
 position: relative;
 transform: rotateY(20deg) skewX(-2deg);
+/* Added transition to smooth the raising and lowering of the hover effect */
+transition: transform 0.5s, box-shadow 0.5;   
 }  
 
 /* Adding a hover effect for the cards on a mouseover with CSS */
@@ -94,6 +96,7 @@ transform: rotateY(20deg) skewX(-2deg);
    Its result is a <transform-function> data type.  */
 card:hover {
 transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
+box-shadow: 2rem 2rem 2rem #000;
 }
    
 /* Giving a 3D look */
