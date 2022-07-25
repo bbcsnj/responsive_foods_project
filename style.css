@@ -297,8 +297,7 @@ align-items: flex-start;
 
 .section-4-text {
 text-transform: uppercase; 
-padding-bottom: 1rem;
-border: solid white;   
+padding-bottom: 1rem; 
 }   
 
 .section-4-heading {
@@ -309,14 +308,12 @@ color: #a79a2d;
 
 .section-4-paragraph {
 font-size: 1.5rem;
-color: #888;
-border: solid white;   
+color: #888; 
 }
 
 .signup-form {
 display: flex;
-align-items: center;
-border: solid white;   
+align-items: center; 
 }
 
 .signup-form-input {
@@ -357,7 +354,6 @@ border-top: 0.1rem solid #888;
 padding-top: 4rem;
 width: 100%;
 text-align: center;
-border: solid white;
 }
 /* End of Section 4 */
 
