@@ -298,6 +298,7 @@ align-items: flex-start;
 .section-4-text {
 text-transform: uppercase; 
 padding-bottom: 1rem;
+border: solid white;   
 }   
 
 .section-4-heading {
@@ -355,7 +356,6 @@ padding-top: 6rem;
 width: 100%;
 text-align: center;
 border: solid white;
-margin-top: 1rem;
 }
 /* End of Section 4 */
 
