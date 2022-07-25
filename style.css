@@ -292,8 +292,7 @@ display: flex;
 justify-content: space-around;
 padding: 3rem 0;
 position: relative;
-align-items: flex-start;   
-border: solid white;   
+align-items: flex-start;     
 }
 
 .section-4-text {
@@ -349,7 +348,7 @@ cursor: pointer;
 
 .copyright {
 position: absolute;
-bottom: 3rem;
+bottom: 2rem;
 font-size: 1.7rem;
 font-weight: 200;
 color: #eee;
