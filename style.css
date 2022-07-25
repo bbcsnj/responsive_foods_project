@@ -293,6 +293,7 @@ justify-content: space-around;
 padding: 3rem 0;
 position: relative;
 align-items: flex-start;   
+border: solid white;   
 }
 
 .section-4-text {
@@ -309,12 +310,14 @@ color: #a79a2d;
 
 .section-4-paragraph {
 font-size: 1.5rem;
-color: #888;  
+color: #888;
+border: solid white;   
 }
 
 .signup-form {
 display: flex;
 align-items: center;
+border: solid white;   
 }
 
 .signup-form-input {
