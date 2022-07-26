@@ -465,7 +465,8 @@ text-align: center;
 
 @media (min-width: 1401px) {
    .section-2-section-heading {
-   padding-bottom: 2rem;   
+   padding-bottom: 2rem;
+   border: solid white;
    }
 }
 
