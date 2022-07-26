@@ -463,11 +463,19 @@ text-align: center;
 
 /* Responsive */
 
+@media screen {
+   .section-2 .section-heading {
+   padding-bottom: 2rem;
+   border: solid white;
+   }   
+}
+
 @media (max-width: 1400px) {
    .section-2 .section-heading {
    padding-bottom: 2rem;
    border: solid white;
-   
+   }
+      
    html {
    font-size: 50%;   
    }
