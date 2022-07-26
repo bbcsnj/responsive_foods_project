@@ -57,7 +57,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 opacity: 0;
-transition: color 0.3, opacity, 2s;
+transition: color 0.3, opacity 0.2s;
 }
 
 .change .navbar-link {
@@ -460,10 +460,3 @@ width: 100%;
 text-align: center;
 }
 /* End of Section 4 */
-
-
-
-
-
-
-
