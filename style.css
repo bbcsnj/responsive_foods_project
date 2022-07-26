@@ -463,6 +463,12 @@ text-align: center;
 
 /* Responsive */
 
+@media (min-width: 1401px) {
+   .section-2-section-heading {
+   padding-bottom: 2rem;   
+   }
+}
+
 @media (max-width: 1400px) {
    html {
    font-size: 50%;   
