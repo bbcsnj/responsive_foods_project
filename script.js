@@ -1,3 +1,10 @@
+document.querySelector('.menu').addEventListener('click', () => {
+    document.querySelectorAll('.target').forEach((item) => {
+        item.classList.toggle('change');
+    })
+})
+
+
     /* Create a 'const' variable called icons  - this can't be reassigned */
     /*  
     The Document method querySelectorAll() returns a static (not live) NodeList 
