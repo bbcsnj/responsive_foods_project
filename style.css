@@ -463,8 +463,8 @@ text-align: center;
 
 /* Responsive */
 
-@media screen and (max-width: 1400px) {
-   .section-2-section-heading {
+@media (max-width: 1400px) {
+   .section-2.section-heading {
    padding-bottom: 2rem;
    border: solid white;
    
