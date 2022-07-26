@@ -1,3 +1,16 @@
+/*
+The addEventListener() method of the EventTarget interface sets up a function that will be called 
+whenever the specified event is delivered to the target. 
+HTML DOM events allow JavaScript to register different event handlers on elements in an HTML document.
+All DOM Events https://www.w3schools.com/jsref/dom_obj_event.asp
+*/
+/*
+The forEach() method executes a provided function once for each array element. 
+/*
+The toggle() method of the DOMTokenList interface removes an existing token from the list and returns false.
+If the token doesn't exist it's added and the function returns true. 
+*/
+
 document.querySelector('.menu').addEventListener('click', () => {
     document.querySelectorAll('.target').forEach((item) => {
         item.classList.toggle('change');
