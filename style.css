@@ -558,10 +558,7 @@ text-align: center;
    }
    .navbar-link {
    margin: 0 0.7rem;
-   }
-   .copyright {
-      margin-top: 1rem;
-   }    
+   }   
 }
 
 @media (max-width: 480px) {
@@ -573,10 +570,7 @@ text-align: center;
    }
    .navbar-link i {
       font-size: 3rem;
-      } 
-   .copyright {
-      margin-top: 1rem;
-   }     
+      }     
 }
 /* End of Responsive */
 
