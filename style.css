@@ -419,21 +419,19 @@ text-align: center;
 }
 
 .signup-form {
-display: flex;
+/*display: flex;
 align-items: center;
-justify-content: center;
+justify-content: center;*/
 }
 
 .input-container {
+/*margin: auto;
 margin: auto;
-margin: auto;
-width: max-content;
+width: max-content;*/
 }
 
 .signup-form-input {
 width: 35rem;
-margin: auto;
-margin: auto;
 height: 5rem;
 padding: 1rem;
 border: 0.2rem solid #a79a2d;
