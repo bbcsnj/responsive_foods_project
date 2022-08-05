@@ -402,17 +402,20 @@ align-items: center;
 .section-4-text {
 text-transform: uppercase; 
 padding-bottom: 1rem; 
+text-align: center;
 }   
 
 .section-4-heading {
 font-size: 4rem;
 font-weight: 900;
 color: #a79a2d;
+text-align: center;
 }   
 
 .section-4-paragraph {
 font-size: 1.5rem;
 color: #888; 
+text-align: center;
 }
 
 .signup-form {
@@ -456,6 +459,8 @@ color: #eee;
 letter-spacing: 0.1rem;
 border-top: 0.1rem solid #888;
 padding-top: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
 width: 100%;
 text-align: center;
 }
