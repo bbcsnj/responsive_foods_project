@@ -80,9 +80,9 @@ transition: opacity 0.4s 0.8s, color 0.3s;
 transition: opacity 0.4s 0.9s, color 0.3s;   
 }
 
-.navbar-link:hover {
+/*.navbar-link:hover {
 color: #fff;   
-}
+}*/
 
 .navbar-link i {
 font-size: 7rem;   
@@ -199,10 +199,10 @@ transition: transform 0.5s, box-shadow 0.5s;
 /* Adding a hover effect for the cards on a mouseover with CSS */
 /* The translateY() CSS function repositions an element vertically on the 2D plane. 
    Its result is a <transform-function> data type.  */
-.card:hover {
+/*.card:hover {
 transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
 box-shadow: 2rem 2rem 2rem #000;
-}
+}*/
    
 /* Giving a 3D look */
 /* In CSS, ::before creates a pseudo-element that is the first child of the selected element. 
@@ -320,13 +320,13 @@ background-color: #fff;
 transition: width 0.5s;
 } 
 
-.gallery-link:hover::before {
+/*.gallery-link:hover::before {
 height: 80%;
 }
 
 .gallery-link:hover::after {
 width: 90%;
-}   
+}*/
 
 .food-img {
 /* The width, heigh, and object-fit assure that the image is reduced in size, but maintains pixel quality */   
@@ -338,13 +338,13 @@ box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946,
 transition: all 0.5s;   
 }
 
-.gallery-link:hover .food-img {
+/*.gallery-link:hover .food-img {
 box-shadow: 1rem 1rem 0.1rem #e92929, 2rem 2rem 0.1rem #a2e946, 
    3rem 3rem 0.1rem #297ce9, 4rem 4rem 0.1rem #e92999;   
 transform: scale(1.1);
 filter: blur(0.5rem);
-opacity: 0.5; /* adding opacity helps the text stand out */
-}
+opacity: 0.5; 
+}*/
 
 .food-name {
 position: absolute;
@@ -360,10 +360,10 @@ overflow: hidden;
 transition: width 0.3s;
 }
 
-.gallery-link:hover .food-name {
+/*.gallery-link:hover .food-name {
 width: 100%;
 transition: width 1.5s 0.5s;
-}
+}*/
 
 .food-description {
 position: absolute;
@@ -380,11 +380,11 @@ visibility: hidden;
 transition: opacity 0.3s;
 }  
 
-.gallery-link:hover .food-description {
+/*.gallery-link:hover .food-description {
 opacity: 1;
 visibility: visible;
 transition: opacity 1s 1s;
-}
+}*/
 
 /* End of Section 3 */
 /* Section 4 */
@@ -561,3 +561,41 @@ text-align: center;
    }
 }
 /* End of Responsive */
+
+/* targets only devices that can hover */
+@media (hover: hover){
+   .navbar-link:hover {
+      color: #fff;   
+      }
+   .card:hover {
+      transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
+      box-shadow: 2rem 2rem 2rem #000;
+      }
+   .gallery-link:hover::before {
+      height: 80%;
+      }
+         
+   .gallery-link:hover::after {
+      width: 90%;
+      }
+   .gallery-link:hover .food-img {
+      box-shadow: 1rem 1rem 0.1rem #e92929, 2rem 2rem 0.1rem #a2e946, 
+         3rem 3rem 0.1rem #297ce9, 4rem 4rem 0.1rem #e92999;   
+      transform: scale(1.1);
+      filter: blur(0.5rem);
+      opacity: 0.5; /* adding opacity helps the text stand out */
+      }
+   .gallery-link:hover .food-name {
+      width: 100%;
+      transition: width 1.5s 0.5s;
+      }
+   .gallery-link:hover .food-description {
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 1s 1s;
+      }      
+}
+/* targets only devices that don’t hover */
+@media (hover: none){
+
+}
