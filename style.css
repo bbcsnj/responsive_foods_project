@@ -425,9 +425,9 @@ justify-content: center;*/
 }
 
 .input-container {
-/*margin: auto;
-margin: auto;
-width: max-content;*/
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .signup-form-input {
