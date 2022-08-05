@@ -425,9 +425,7 @@ justify-content: center;
 }*/
 
 .input-container {
-display: flex;
-align-items: center;
-justify-content: center;
+width: 100%;
 }
 
 .signup-form-input {
