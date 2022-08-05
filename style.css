@@ -559,6 +559,9 @@ text-align: center;
    .navbar-link {
    margin: 0 0.7rem;
    }
+   .copyright {
+      margin-top: 1rem;
+   }    
 }
 
 @media (max-width: 480px) {
