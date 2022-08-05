@@ -420,8 +420,6 @@ text-align: center;
 
 .signup-form {
 display: flex;
-align-items: center;
-justify-content: center;
 }
 
 .input-container {
