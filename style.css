@@ -568,7 +568,10 @@ transition: opacity 1s 1s;
    }
    .navbar-link {
    margin: 0 0.7rem;
-   }   
+   } 
+   .navbar-link i {
+      font-size: 3.5rem;
+      }      
 }
 
 @media (max-width: 480px) {
