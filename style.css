@@ -135,7 +135,7 @@ box-shadow: 0.1rem 0rem 0.1rem #000;
 /* Section 1 */
 .section-1 {
 width: 100%;  
-height: 100vh;
+height: auto;
 background-color: #333;
 display: flex;
 flex-direction: column;
@@ -167,7 +167,7 @@ transition: transform 0.3s 0.3s;
 /* Section 2 */
 .section-2 {
 width: 100%;
-height: 100vh;
+height: auto;
 background-color: #222;
 display: flex;
 flex-direction: column;
@@ -280,6 +280,7 @@ box-shadow: -0.2rem -0.2rem 0.2rem #000;
 .section-3 {
 background-color: #333;
 padding: 5em 0;
+height: auto;
 }
 
 .gallery {
