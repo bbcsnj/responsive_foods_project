@@ -540,12 +540,12 @@ text-align: center;
    left: 2rem;
    }
    
-   .section-4 {
+/*   .section-4 {
    height: 40rem;
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
-   }
+   }*/
    
    .section-4-text {
    margin-bottom: 8rem;
