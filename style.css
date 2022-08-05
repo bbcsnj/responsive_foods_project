@@ -424,9 +424,9 @@ align-items: center;
 justify-content: center;
 }*/
 
-.input-container {
+/*.input-container {
 width: 100%;
-}
+}*/
 
 .signup-form-input {
 width: 35rem;
@@ -443,7 +443,7 @@ color: #a79a2d;
 color: #a79a2d;
 }
 
-.signup-form-btn {
+/*.signup-form-btn {
 position: relative;
 left: -4.5rem;
 width: 4rem;
@@ -453,7 +453,7 @@ color: #a79a2d;
 border: none;
 font-size: 1.8rem;
 cursor: pointer;   
-}
+}*/
 
 .copyright {
 /*position: absolute;*/
