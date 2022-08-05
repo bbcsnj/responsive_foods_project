@@ -393,10 +393,10 @@ width: 100%;
 height: auto;
 background-color: #222;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 padding: 3rem 0;
 position: relative;
-align-items: flex-start;     
+align-items: center;     
 }
 
 .section-4-text {
