@@ -418,11 +418,11 @@ color: #888;
 text-align: center;
 }
 
-.signup-form {
-/*display: flex;
+/*.signup-form {
+display: flex;
 align-items: center;
-justify-content: center;*/
-}
+justify-content: center;
+}*/
 
 .input-container {
 display: flex;
