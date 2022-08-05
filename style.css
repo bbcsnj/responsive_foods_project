@@ -561,7 +561,7 @@ text-align: center;
    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
    html {
    font-size: 38%;
    }
@@ -570,7 +570,10 @@ text-align: center;
    }
    .navbar-link i {
       font-size: 3rem;
-      }   
+      } 
+   .copyright {
+      margin-top: 1rem;
+   }     
 }
 /* End of Responsive */
 
