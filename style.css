@@ -425,9 +425,9 @@ justify-content: center;
 }
 
 .input-container {
-position: absolute;
-left: 50%;
-transform: translateX(-50%);
+margin: auto;
+margin: auto;
+width: max-content;
 }
 
 .signup-form-input {
@@ -446,7 +446,7 @@ color: #a79a2d;
 }
 
 .signup-form-btn {
-position: absolute;
+position: relative;
 left: -4.5rem;
 width: 4rem;
 height: 4rem;
