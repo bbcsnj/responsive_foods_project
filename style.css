@@ -448,7 +448,7 @@ cursor: pointer;
 }
 
 .copyright {
-position: absolute;
+/*position: absolute;*/
 bottom: 2rem;
 font-size: 1.7rem;
 font-weight: 200;
