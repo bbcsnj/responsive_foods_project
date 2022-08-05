@@ -446,7 +446,7 @@ color: #a79a2d;
 }
 
 .signup-form-btn {
-position: relative;
+position: absolute;
 left: -4.5rem;
 width: 4rem;
 height: 4rem;
