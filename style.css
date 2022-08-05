@@ -560,6 +560,18 @@ text-align: center;
    margin: 0 0.7rem;
    }
 }
+
+@media (max-width: 400px) {
+   html {
+   font-size: 35%;
+   }
+   .navbar-link {
+   margin: 0 0.7rem;
+   }
+   .navbar-link i {
+      font-size: 3rem;
+      }   
+}
 /* End of Responsive */
 
 /* targets only devices that can hover */
