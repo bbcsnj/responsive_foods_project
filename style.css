@@ -144,6 +144,10 @@ justify-content: space-evenly;
 padding-bottom: 3rem;
 }
 
+.section-1-icons {
+   height: fit-content;
+}
+
 .section-1-icons i {
 font-size: 35rem;
 color: #a79a2d;
