@@ -626,3 +626,14 @@ transition: opacity 1s 1s;
 @media (hover: none){
 
 }
+
+@media (max-height: 560px) {
+   .section-1 {
+     height: 110%;
+     padding-top: 4.1rem;
+     padding-bottom: 1rem;
+   }
+
+ }
+ 
+ 
