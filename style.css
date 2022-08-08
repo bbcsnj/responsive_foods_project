@@ -633,6 +633,10 @@ transition: opacity 1s 1s;
      padding-bottom: 1rem;
    }
 
+   .section-1-icons i {
+      font-size: 10rem;
+      }   
+
  }
  
  
